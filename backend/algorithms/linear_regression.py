@@ -1,6 +1,6 @@
 from typing import Generator, Dict, Any, List
 from .base import BaseAlgorithm
-from  numpy import np
+import numpy as np
 
 class LinearRegressionStream(BaseAlgorithm):
     def __init__(self, learning_rate: float = 0.01, epochs: int = 100):
